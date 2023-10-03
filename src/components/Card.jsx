@@ -11,8 +11,8 @@ const Card = (data) => {
   const navigate = useNavigate();
 
   return (
-    <div className="rounded-xl bg-white">
-      <div className="flex flex-col">
+    <div className="rounded-xl bg-white max-w-[600px] m-auto">
+      <div className="flex flex-col w-full">
         <div className="p-2 h-2/5 w-full">
           <div className="bg-white px-5 py-3 flex justify-center items-center text-black rounded-xl mt-2 ml-2 z-10 absolute font-semibold opacity-70">
             For Rent
